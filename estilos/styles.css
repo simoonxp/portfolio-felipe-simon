@@ -1,64 +1,16 @@
-/* Reset básico */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
-}
-
-/* Fundo geral */
-body {
-    background: linear-gradient(135deg, #a18cd1, #fbc2eb);
-    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    line-height: 1.6;
 }
 
-/* Container principal */
+body {
+    background-color: rgb(204, 157, 248);
+}
+
 main {
-    background-color: #fff;
-    width: 600px;
-    margin: 40px auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-}
-
-/* Cabeçalho */
-header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-header h1 {
-    font-size: 2rem;
-    color: #5a2d82;
-}
-
-/* Artigos */
-article {
-    background: #f9f9f9;
-    margin: 15px 0;
-    padding: 15px;
-    border-left: 5px solid #5a2d82;
-    border-radius: 6px;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-article:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-article h2 {
-    color: #5a2d82;
-    margin-bottom: 10px;
-}
-
-/* Rodapé */
-footer {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 0.9em;
-    color: #555;
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
 }
