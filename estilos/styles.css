@@ -3,12 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
 }
 
 /* Fundo geral */
 body {
-    background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
     color: #333;
     font-size: 16px;
     line-height: 1.6;
@@ -17,54 +17,60 @@ body {
 /* Container principal */
 main {
     background-color: #fff;
-    width: 700px;
+    width: 80%;
+    max-width: 900px;
     margin: 50px auto;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
 /* Cabeçalho */
 header {
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 header h1 {
-    font-size: 2.5rem;
-    color: #5a2d82;
+    font-size: 2.8rem;
+    color: #6a11cb;
     margin-bottom: 10px;
 }
 
 header p {
-    font-size: 1.1rem;
-    color: #666;
+    font-size: 1.2rem;
+    color: #555;
 }
 
-/* Artigos */
+/* Cursos */
+.cursos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
 article {
     background: #f9f9f9;
-    margin: 20px 0;
     padding: 20px;
-    border-left: 6px solid #5a2d82;
-    border-radius: 8px;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 12px;
+    border-top: 5px solid #2575fc;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 article:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
 }
 
 article h2 {
-    color: #5a2d82;
+    color: #2575fc;
     margin-bottom: 12px;
 }
 
 /* Rodapé */
 footer {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
     font-size: 0.9em;
     color: #555;
 }
