@@ -1,47 +1,70 @@
-# Página Sobre Mim
+# 🌐 Portfolio — Felipe Simon
 
-Este projeto consiste em uma página web simples desenvolvida com HTML e CSS com o objetivo de apresentar informações pessoais, formação acadêmica, habilidades e objetivos profissionais.
+<p align="left">
+  <img src="https://img.shields.io/badge/Status-Online-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+</p>
 
-## Tecnologias Utilizadas
+---
 
-- HTML5
-- CSS3
+## 📌 Visao Geral
 
-## Estrutura do Projeto
+Pagina de portfolio pessoal desenvolvida com **HTML5** e **CSS3**, com o objetivo de apresentar minha trajetoria academica, habilidades e objetivos profissionais na area de dados.
+
+🔗 **Acesse online:** [simoonxp.github.io/portfolio-felipe-simon](https://simoonxp.github.io/portfolio-felipe-simon/)
+
+---
+
+## 🎯 Objetivo
+
+Criar uma presenca online profissional, consolidando conhecimentos de desenvolvimento web e servindo como cartao de visitas para oportunidades de estagio na area de Ciencia de Dados.
+
+---
+
+## 🛠 Tecnologias Utilizadas
+
+| Tecnologia | Uso |
+|---|---|
+| **HTML5** | Estrutura e conteudo da pagina |
+| **CSS3** | Estilizacao e layout responsivo |
+
+---
+
+## 📂 Estrutura do Projeto
 
 ```
-projeto/
-│
-├── index.html
-├── style.css
-└── README.md
+portfolio-felipe-simon/
+|
+|-- index.html        # Pagina principal
+|-- estilos/
+|   -- styles.css     # Estilos da pagina
+-- README.md
 ```
 
-## Funcionalidades
+---
 
-- Apresentação pessoal
-- Informações acadêmicas
-- Lista de habilidades
-- Objetivos profissionais
-- Seção de contato
-- Layout organizado e responsivo
+## 🚀 Como Executar
 
-## Objetivo
+### Opcao 1 - Online
+Acesse diretamente pelo link:
+👉 [simoonxp.github.io/portfolio-felipe-simon](https://simoonxp.github.io/portfolio-felipe-simon/)
 
-Este projeto foi desenvolvido como prática de desenvolvimento web utilizando HTML e CSS, reforçando conceitos de estruturação de páginas, estilização e organização de conteúdo.
+### Opcao 2 - Local
+```bash
+# 1. Clone o repositorio
+git clone https://github.com/simoonxp/portfolio-felipe-simon.git
 
-## Como Executar
+# 2. Abra o arquivo no navegador
+# Basta abrir o index.html diretamente no seu navegador
+```
 
-1. Faça o download ou clone este repositório.
-2. Certifique-se de que os arquivos `index.html` e `style.css` estejam na mesma pasta.
-3. Abra o arquivo `index.html` em qualquer navegador.
+---
 
-## Autor
+## 👨‍💻 Autor
 
-Felipe Simon
-
-Estudante de Big Data para Negócios na FATEC Ipiranga, com interesse em tecnologia, programação, banco de dados, análise de dados e Business Intelligence.
-
-## Licença
-
-Este projeto foi desenvolvido para fins educacionais e de aprendizado.
+**Felipe Simon**
+- 🎓 Ciencia de Dados - FATEC
+- 📍 Sao Bernardo do Campo, SP
+- 💼 [LinkedIn](https://www.linkedin.com/in/felipe-simon-83ba10352)
+- 📧 simonhot.com@gmail.com
